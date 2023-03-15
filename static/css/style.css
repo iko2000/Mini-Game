@@ -1,0 +1,160 @@
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/Nunito-Bold.ttf");
+}
+
+nav {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+.main-box {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: nunito;
+}
+
+.box {
+  width: 80%;
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.player1 {
+  width: 35%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.player2 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10%;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.pic-box {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.pbtn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-family: nunito;
+  cursor: pointer;
+}
+
+.pic-style {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.middle {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+.result-txt {
+  width: 100%;
+  height: 20%;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+
+.playerpics {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.points {
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  font-size: 30px;
+  color: black;
+}
+h2 {
+  font-size: 30px;
+  color: black;
+}
+#p2 {
+  transition: 2sc;
+}
+
+p {
+  font-size: 20px;
+  color: blue;
+}
+#reset {
+  width: 60px;
+  height: 20px;
+  border: 1px dashed black;
+  font-family: nunito;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 700px) {
+  .box {
+    width: 90%;
+  }
+  .player1 {
+    width: 20%;
+  }
+  .player2 {
+    width: 20%;
+  }
+  .middle {
+    width: 60%;
+  }
+  .pbtn {
+    width: 42px;
+    height: 70px;
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rock, Paper, Scissors mini game">
+    <meta name="keywords" content="Mini Game, APP, Rock paper scissors">
+    <meta name="author" content="Iviko Shengelia">
+    <link rel="icon" type="image/x-icon" href="/static/pics/website.png">
+
+    <link rel="stylesheet" href="./static/css/reset.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <title>Mini-Game</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li>Rock Paper Scissors</li>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="main-box">
+          <div class="box">
+            <div class="player1">
+              <h1>You</h1>
+              <p class="result1"></p>
+
+              <button class="pbtn" id="scissor1">Scissors</button>
+              <button class="pbtn" id="rock1">Rock</button>
+              <button class="pbtn" id="paper1">Paper</button>
+            </div>
+            <div class="middle">
+              <div class="result-txt">
+                <h2 id="winner"></h2>
+              </div>
+              <div class="playerpics">
+                <div id="p1" class="pic-box"></div>
+                <div id="p2" class="pic-box"></div>
+              </div>
+              <div class="points">
+                <p id="p1-point"> </p>
+                <button id="reset">Reset</button>
+                <p id="p2-point"> </p>
+
+              </div>
+            </div>
+
+            <div class="player2">
+              <h1>Computer</h1>
+              <p class="result2"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./static/js/script.js"></script>
+  </body>
+</html>
